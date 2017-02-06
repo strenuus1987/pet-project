@@ -1,0 +1,82 @@
+body {
+	background-color: #2c3338;
+	color: #606468;
+	font-family: 'Open Sans', Arial, sans-serif;
+	font-size: 14px;
+	line-height: 1.5em;
+}
+
+a {
+	color: #eee;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+.row {
+  margin-top: 30px;
+}
+
+#logout {
+    text-align: right;
+}
+
+button {
+    background: #337ab7;
+}
+
+.myBtn {
+    background: #337ab7;
+    color: white;
+}
+
+.inputs {
+    background-color: #3b4148;
+    border: none;
+	color: #606468;
+    max-width: 300px;
+    margin-bottom: 15px;
+}
+
+.inputs:focus {
+    color:#fff;
+}
+
+legend {
+    color: #606468;
+    padding-bottom: 15px;
+    font-size: 30px;
+}
+
+label {
+    padding-bottom: 5px;
+}
+
+select {
+    display: block;
+    min-width: 300px;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+input[type=date]::-webkit-inner-spin-button, 
+input[type=date]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+::-webkit-calendar-picker-indicator {
+    display: none;
+}
+   
+.error_message {
+	color: red;
+	display: none;
+	margin-bottom: 10px;
+}
